@@ -1,6 +1,5 @@
 
 html {
-  font-family: "Source Code Pro", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -9,4 +8,31 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+html,
+body,
+#root,
+.app,
+.content{
+  height: 100%;
+  width: 100%;
+  font-family: "Source Code Pro", sans-serif;
+}
+
+.app{
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: #e0e0e0;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #888;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #555;
 }
