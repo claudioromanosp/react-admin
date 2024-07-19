@@ -1,5 +1,7 @@
 import { ColorModeContext, useMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
+import Topbar from "./scenes/global/Topbar";
+import Sidebar from "./scenes/global/Sidebar";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -9,7 +11,7 @@ function App() {
         <CssBaseline />
         <div className="app">
           <main className="content">
-            <h1>Theme</h1>
+            <Topbar />
           </main>
         </div>
       </ThemeProvider>
