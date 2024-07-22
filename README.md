@@ -4,6 +4,8 @@
 
 Este projeto apresenta um Dashboard com gráficos, calendário, cadastro(frontend), algumas páginas ilustrativas e gráficos do tipo pizza, barra, linha e geográfico.
 
+Além disso, foi aplicado as técnicas de temas: claro ou escuro.
+
 Para ver ao vivo [clique aqui.](https://react-admin-omega-three.vercel.app/)
 
 ### Pacotes utilizados
