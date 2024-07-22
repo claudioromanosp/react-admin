@@ -142,13 +142,13 @@ const Sidebar = () => {
             />
             <Item
               title="Contatos"
-              to="/contatos"
+              to="/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Balanços"
+              title="Faturas"
               to="/invoices"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
