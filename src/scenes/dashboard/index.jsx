@@ -21,7 +21,7 @@ const Dashboard = () => {
     <Box m="20px">
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="DASHBOARD" subtitle="Bem-vindo, Claudio Romano." />
+        <Header title="DASHBOARD" subtitle="Bem-vindo, Claudio M." />
 
         <Box>
           <Button
