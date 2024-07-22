@@ -1,6 +1,6 @@
 # React Admin Dashboard
 
-![React Admin Dashboard](/assets/images/dashboard.png)
+![React Admin Dashboard](/public/assets/images/dashboard.png)
 
 Este projeto apresenta um Dashboard com gráficos, calendário, cadastro(frontend), algumas páginas ilustrativas e gráficos do tipo pizza, barra, linha e geográfico.
 
