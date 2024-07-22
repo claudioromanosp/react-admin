@@ -134,15 +134,15 @@ const Sidebar = () => {
               Dados
             </Typography>
             <Item
-              title="Gestor"
-              to="/team"
+              title="Equipe"
+              to="/equipe"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Contatos"
-              to="/contacts"
+              to="/contatos"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
